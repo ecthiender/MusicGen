@@ -1,2 +1,2 @@
-run:
-	chromium index.html &>> /dev/null
+first:
+	chromium first.html &> /dev/null
