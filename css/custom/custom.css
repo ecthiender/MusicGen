@@ -9,9 +9,14 @@ h1 {
 	border-bottom: 1px solid #e0e0e0;
 }
 
-.fa {
+.pure-button {
+	background-color: #eeeeee;
+}
+
+.pure-button .fa {
 	padding-right: 20%;
 }
+
 
 .centering-div{
     display: flex;
@@ -24,6 +29,7 @@ h1 {
 }
 
 .option {
+	width: 80%;
 	margin-top: 3%;
 	font-size: 130%;
 	font-weight: 400;
@@ -31,9 +37,13 @@ h1 {
 }
 
 #play {
-	margin-top: 3%;
-	padding: 1%;
+
+	margin-top: 8%;
+	padding: 2%;
+	font-size: 1.2em;
+	border: 1px solid #FFFFFF;
 }
+
 
 #info_pane {
 	margin-top: 3%;

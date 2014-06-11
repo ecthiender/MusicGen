@@ -1,0 +1,62 @@
+<html>
+<head>
+  <title> Experiment 1 </title>
+  <link rel="stylesheet" href="css/pure/pure-min.css">
+  <link rel="stylesheet" href="css/custom/custom.css">
+  <link rel="stylesheet" href="css/awesome/font-awesome.min.css">
+
+  <!-- fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+
+  <!--JS-->
+  <script type="text/javascript" src="js/second.js"></script>
+  <script type="text/javascript" src="js/timbre.js"></script>
+
+</head>
+
+<body>
+  <div class="pure-g">
+
+    <div class="pure-u-1"> <h1> Experiment 2 </h1> </div>
+    <div class="pure-u-1"> <h3> Which tone is <u>higher</u>, first or second?</h3> </div>
+
+
+
+    <!-- visual info of 1st and second-->
+    <div class="pure-u-1-4" ></div>
+    <div class="pure-u-1-4 centering-div" > <button class="pure-button centered option" id="first_tone">First Tone</button> </div>
+    <div class="pure-u-1-4 centering-div"> <button class="pure-button centered option" id="second_tone">Second Tone</button> </div>
+    <div class="pure-u-1-4" ></div>
+
+
+    <!-- play button -->      
+    <div class="pure-u-1 centering-div"> 
+        <button class="pure-button centered" id="play"><i class="fa fa-play"></i> Play Sounds</button>
+    </div>
+
+        <!-- sound indicator-->
+    <div class="pure-u-1 centering-div">
+        <div class="centered" id="info_pane">
+        </div >
+    </div>
+
+     <div class="pure-u-1 centering-div">
+      <i class="fa centered" id="info_pane_icon"></i>
+    </div>
+
+   
+
+
+
+  </div> 
+
+
+</body>
+<script>
+  window.onload = function(){ 
+    controller = new Mediator()
+    controller.init()
+  }
+
+</script>
+</html>
