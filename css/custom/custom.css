@@ -1,0 +1,59 @@
+h1, h3, button, #info_pane{
+	text-align:center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+
+h1 {
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.fa {
+	padding-right: 20%;
+}
+
+.centering-div{
+    display: flex;
+}
+
+.centered {
+    padding: 1em 0.5em;
+    text-align: center;
+    margin: auto;
+}
+
+.option {
+	margin-top: 3%;
+	font-size: 130%;
+	font-weight: 400;
+	padding: 10%	;
+}
+
+#play {
+	margin-top: 3%;
+	padding: 1%;
+}
+
+#info_pane {
+	margin-top: 3%;
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom:  0px;
+	padding-bottom: 0px;
+
+}
+
+#info_pane_icon {
+	margin-top: 0%;
+	font-size: 1.2em;
+}
+
+@font-face {
+	font-family: 'Awesome';
+	src: 
+	url('../../fonts/fontawesome-webfont.woff') format('woff'), /* Modern Browsers */
+	url('../../fonts/fontawesome-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+
